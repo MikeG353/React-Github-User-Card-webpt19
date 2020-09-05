@@ -9,13 +9,19 @@
 .follower-counts {
   display: flex;
 }
+.follower-list{
+  flex-flow: column;
+  margin: 10px;
+}
 .follow-data {
   margin: 15px;
-
+}
+.user-bio {
+  margin: 15px;
 }
 .user-card {
-  background-color: #222831;
-  height: 37rem;
+  background-color: #183157;
+  height: 80%;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
